@@ -24,7 +24,7 @@ public class StudentSerialization {
 
         // Serialization
         try {
-            Student s1 = new Student(101, "Chanchal", "A");
+            Student s1 = new Student(101, "Spandan", "A");
             ObjectOutputStream oos = new ObjectOutputStream(new FileOutputStream(filename));
             oos.writeObject(s1);
             oos.close();
